@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * @file
+ * Contains usMap.module.
+ */
+//
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function usMap_theme() {
+  $base_path = drupal_get_path('module','usMap');
+
+    $templates = array(
+
+      'main_page' => array(
+        'template' => 'map',
+        'render element' => 'children',
+        'variables' => array('base_path' => $base_path),
+      ),
+    );
+
+
+     return $templates;
+}

@@ -1,0 +1,11 @@
+map:
+  Version: 1.x
+  css:
+    component:
+      css/map.css: {}
+  js:
+    js/map_exe.js: {}
+    js/raphael.js: {}
+    js/usmap.js: {}
+  dependencies:
+    - core/jquery

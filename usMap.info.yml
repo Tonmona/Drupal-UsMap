@@ -1,0 +1,6 @@
+name: US map
+type: module
+description: Module for displaying a US map.
+core: 8.x
+dependencies:
+  - block

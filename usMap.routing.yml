@@ -1,0 +1,9 @@
+usMap.map:
+  path: '/usMap'
+  defaults:
+    _controller: '\Drupal\usMap\Controller\STController::map'
+    _title: 'usMap'
+  requirements:
+     _permission: 'access content'
+  options:
+    no_cache: TRUE
