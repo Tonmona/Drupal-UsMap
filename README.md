@@ -1,5 +1,6 @@
 # Drupal-UsMap
 A drupal module for US-map 
+
 INTRODUCTION
 ------------
 The module includes an interactive map of the US states. It uses the Raphaeal library and javascript. The libraries are included in the module. 
